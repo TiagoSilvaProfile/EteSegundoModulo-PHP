@@ -1,0 +1,16 @@
+1.Criar variáveis que utilizem as regras de diferentes formas.
+2.Após criar as variáveis, exiba os seus valores utilizando o echo;
+3.Tente criar algumas variáveis com seus dados pessoais e monte uma frase
+em que você utilize a concatenação para montá-la;
+
+----------------------------------------------------------------------------
+
+<?php 
+$nome = "Tiago Silva";
+$idade = 28;
+$casado = true;
+$instituicao = 'ETE Jurandir Bezerra Lins';
+
+
+echo "<h1>Olá sou o {$nome}, tenho {$idade} anos, sou aluno da {$instituicao}.</h1> ";
+?>
