@@ -1,0 +1,32 @@
+<?php
+$array = array();
+$array[0] = "Tiago";
+$array[1] = "Bruno";
+$array[2] = "Izabel";
+$array[3] = "Alice";
+$array[4] = "Beatriz";
+
+echo "<h1>Array com 05 variaveis e suas variações na orde crescente e descrescente.</h1>";
+
+arsort($array);//Ordena um array em ordem descrescente mantendo a associação entre índices e valores
+echo "<br>";
+print_r($array);
+echo "<br>";
+asort($array);//Ordena um array mantendo a associação entre índices e valores
+print_r($array);
+echo "<br>";
+rsort ($array);//Ordena um array em ordem descrescente
+print_r($array);
+echo "<br>";
+ksort ($array);//Ordena um array pelas chaves
+print_r($array);
+echo "<br>";
+krsort ($array);//Ordena um array pelas chaves em ordem descrescente
+print_r($array);
+echo "<br>";
+sort ($array);//Ordena um array
+print_r($array);
+echo "<br>";
+//usort ($array) - Ordena um array pelos valores utilizando uma função de comparação definida pelo usuário
+
+?>
