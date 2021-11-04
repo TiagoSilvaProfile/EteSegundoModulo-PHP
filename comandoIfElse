@@ -1,0 +1,14 @@
+<?php
+
+$nome = "Tiago A Silva";//Decarando a variavel nome
+$idade = 28;//Declarando a variavel idade
+
+if($idade>=18){//Inicializando o comando SE, verificando se a idade é maior ou igual a 18
+
+    echo "Olá, sr(a) {$nome} sua liberação foi autorizada.";
+}
+else{
+    echo "Olá, sr(a) {$nome} sua liberação não foi autorizada, pois você é de menor."; 
+}
+
+?>
